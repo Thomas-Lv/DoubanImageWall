@@ -28,10 +28,10 @@ jobs:
         run: python image_wall.py -i=Thomas_Lv -c=18 -r=8 -o=8 -rd=True
 
       - name: execute py script to generate album cover wall
-        run: python image_wall.py -i=Thomas_Lv -m='music' -c=10 -r=8 -o=8 -rd=True -s=True
-
-      - name: execute py script to generate book cover wall
         run: python image_wall.py -i=Thomas_Lv -m='book' -c=10 -r=8 -o=8 -rd=True -s=True
+
+#      - name: execute py script to generate book cover wall
+#        run: python image_wall.py -i=Thomas_Lv -m='book' -c=10 -r=8 -o=8 -rd=True -s=True
           
       - name: commit files
         run: |
